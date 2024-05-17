@@ -26,9 +26,9 @@ const Index = () => {
           <Text fontSize="2xl" fontWeight="bold">
             DEBERE BIRHAN UNIVERSITY INFORMATION
           </Text>
-          <IconButton aria-label="Chat Bot" icon={<FaRobot />} size="lg" onClick={() => setChatOpen(!chatOpen)}>
+          <Button leftIcon={<FaRobot />} size="lg" onClick={() => setChatOpen(!chatOpen)} colorScheme="blue">
             JUST AMaK ME
-          </IconButton>
+          </Button>
         </HStack>
 
         {/* Main Content */}
