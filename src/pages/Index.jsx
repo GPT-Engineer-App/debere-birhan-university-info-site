@@ -26,32 +26,38 @@ const Index = () => {
           <Text fontSize="2xl" fontWeight="bold">
             DEBERE BIRHAN UNIVERSITY INFORMATION
           </Text>
-          <IconButton aria-label="Chat Bot" icon={<FaRobot />} size="lg" onClick={() => setChatOpen(!chatOpen)} />
+          <IconButton aria-label="Chat Bot" icon={<FaRobot />} size="lg" onClick={() => setChatOpen(!chatOpen)}>
+            JUST AMaK ME
+          </IconButton>
         </HStack>
 
         {/* Main Content */}
         <Flex>
           <Box flex="1" p={4}>
             <VStack spacing={4}>
-              <Image src="https://images.unsplash.com/photo-1543193158-07c01963e800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwY2FtcHVzfGVufDB8fHx8MTcxNTk2ODY0Mnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University campus" boxSize="300px" objectFit="cover" />
-              <Text>Description of the first image.</Text>
-              <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGlicmFyeXxlbnwwfHx8fDE3MTU5Njg2NDR8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University library" boxSize="400px" objectFit="cover" />
-              <Text>Description of the second image.</Text>
-              <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGVjdHVyZSUyMGhhbGx8ZW58MHx8fHwxNzE1OTY4NjQ1fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University lecture hall" boxSize="500px" objectFit="cover" />
-              <Text>Description of the third image.</Text>
-              <Image src="https://images.unsplash.com/photo-1615631648086-325025c9e51e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3MTU5Njg2NDd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University laboratory" boxSize="350px" objectFit="cover" />
-              <Text>Description of the fourth image.</Text>
-              <Image src="https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwc3BvcnRzJTIwY29tcGxleHxlbnwwfHx8fDE3MTU5Njg2NDl8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University sports complex" boxSize="450px" objectFit="cover" />
-              <Text>Description of the fifth image.</Text>
-              <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwZG9ybWl0b3J5fGVufDB8fHx8MTcxNTk2ODY1MXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University dormitory" boxSize="300px" objectFit="cover" />
-              <Text>Description of the sixth image.</Text>
-              <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwY2FmZXRlcmlhfGVufDB8fHx8MTcxNTk2ODY1M3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University cafeteria" boxSize="400px" objectFit="cover" />
-              <Text>Description of the seventh image.</Text>
-              <Box as="video" controls width="100%">
-                <source src="GPTENG:get_video('Debere Birhan University overview')" type="video/mp4" />
-                Your browser does not support the video tag.
-              </Box>
-              <Text>Description of the first video.</Text>
+              <HStack spacing={4}>
+                <Image src="https://images.unsplash.com/photo-1543193158-07c01963e800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwY2FtcHVzfGVufDB8fHx8MTcxNTk2ODY0Mnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University campus" boxSize="300px" objectFit="cover" />
+                <Image src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGlicmFyeXxlbnwwfHx8fDE3MTU5Njg2NDR8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University library" boxSize="400px" objectFit="cover" />
+              </HStack>
+              <Text>Description of the first and second images.</Text>
+              <HStack spacing={4}>
+                <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGVjdHVyZSUyMGhhbGx8ZW58MHx8fHwxNzE1OTY4NjQ1fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University lecture hall" boxSize="500px" objectFit="cover" />
+                <Image src="https://images.unsplash.com/photo-1615631648086-325025c9e51e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3MTU5Njg2NDd8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University laboratory" boxSize="350px" objectFit="cover" />
+              </HStack>
+              <Text>Description of the third and fourth images.</Text>
+              <HStack spacing={4}>
+                <Image src="https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwc3BvcnRzJTIwY29tcGxleHxlbnwwfHx8fDE3MTU5Njg2NDl8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University sports complex" boxSize="450px" objectFit="cover" />
+                <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwZG9ybWl0b3J5fGVufDB8fHx8MTcxNTk2ODY1MXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University dormitory" boxSize="300px" objectFit="cover" />
+              </HStack>
+              <Text>Description of the fifth and sixth images.</Text>
+              <HStack spacing={4}>
+                <Image src="https://images.unsplash.com/photo-1591710110747-dfeae9fa762a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEZWJlcmUlMjBCaXJoYW4lMjBVbml2ZXJzaXR5JTIwY2FmZXRlcmlhfGVufDB8fHx8MTcxNTk2ODY1M3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Debere Birhan University cafeteria" boxSize="400px" objectFit="cover" />
+                <Box as="video" controls width="100%">
+                  <source src="GPTENG:get_video('Debere Birhan University overview')" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </Box>
+              </HStack>
+              <Text>Description of the seventh image and first video.</Text>
               <Box as="video" controls width="100%">
                 <source src="GPTENG:get_video('Debere Birhan University events')" type="video/mp4" />
                 Your browser does not support the video tag.
